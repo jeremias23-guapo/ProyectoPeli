@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(), // Pantalla de inicio de sesión
+      home: HomeScreen(), // Pantalla de inicio de sesión
     );
   }
 }
