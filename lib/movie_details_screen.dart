@@ -68,20 +68,21 @@ class MovieDetailsScreen extends StatelessWidget {
                 SizedBox(height: 40),
                 Text(
                   'Detalles de la película',
-                  style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 20),
-                
                 Text(
-                
-                'Descripcion: ${movieOrSeries.description}',
+                  'Descripcion: ${movieOrSeries.description}',
                   style: TextStyle(color: Colors.white, fontSize: 20),
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 8),
                 Text(
-                'Nombre: ${movieOrSeries.title}',
+                  'Nombre: ${movieOrSeries.title}',
                   style: TextStyle(color: Colors.white, fontSize: 20),
                   textAlign: TextAlign.center,
                 ),
