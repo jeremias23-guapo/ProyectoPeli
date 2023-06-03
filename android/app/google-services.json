@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604078156830",
+    "project_id": "pelisfire-f3c6d",
+    "storage_bucket": "pelisfire-f3c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604078156830:android:d3193c06ee6dce6e06920f",
+        "android_client_info": {
+          "package_name": "com.example.pelifire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeKuBka_36TUfir3NwrLkPiL8MNy7yIHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
