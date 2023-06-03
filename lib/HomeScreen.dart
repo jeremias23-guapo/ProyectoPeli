@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pelifire/login_screen.dart';
 import '../data/data.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'SearchResultsScreen.dart';
 import 'movie_details_screen.dart';
@@ -18,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   String searchQuery = '';
   bool isMenuOpen = false;
   List<MovieOrSeries> movieList = mainList; // Lista de películas
-
+  bool isLoading = true;
   TextEditingController _searchController = TextEditingController();
 
   List<MovieOrSeries> getMoviesByCategory(String category) {

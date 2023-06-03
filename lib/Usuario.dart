@@ -36,7 +36,7 @@ class _RegistroUsuarioScreenState extends State<RegistroUsuarioScreen> {
       barrierDismissible:
           false, // Impide que el cuadro de diálogo se cierre al tocar fuera de él
       builder: (BuildContext context) {
-        Future.delayed(Duration(seconds: 3), () {
+        Future.delayed(Duration(seconds: 2), () {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (context) => LoginScreen()),

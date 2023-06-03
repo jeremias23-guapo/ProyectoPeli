@@ -173,12 +173,20 @@ class _LoginScreenState extends State<LoginScreen> {
                               ),
                             ],
                           ),
-                          SizedBox(height:  13),
+                          SizedBox(height: 23),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("Has olvidado las contraseña",
-                                  style: TextStyle(color: Colors.red))
+                                  style: TextStyle(color: Colors.white))
+                            ],
+                          ),
+                          SizedBox(height: 13),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text("Has olvidado el usuario",
+                                  style: TextStyle(color: Colors.white))
                             ],
                           ),
                         ],

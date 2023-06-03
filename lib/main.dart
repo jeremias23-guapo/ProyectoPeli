@@ -15,12 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
       title: 'Mi App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(), // Pantalla de inicio de sesión
+      home: LoginScreen(), // Pantalla de inicio de sesión
     );
   }
 }
